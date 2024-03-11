@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.text-capitalize {
+    text-transform: capitalize;
+    color: cadetblue;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+    color: #d86363;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+    color: rgb(199, 161, 235);
+}
+
+/* Блок <div> в котором будет текст */
+.text {
+    border: 2px solid black;
+    padding: 4px;
+    margin: 8px;
+}
+
+/* Стили для выравнения текста */
+.text-center {
+    text-align: center;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-align-center {
+    text-align: center;
+    word-spacing: 10px;
+}
+
+p {
+    font-size: 14px;
+}
+body {
+    font-size: 14px;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-weight: 700;
+    font-stretch: expanded;
+    font-style: oblique;
+    font-size-adjust: 0.7;
+  }
+  .text-color {
+	color: red; /* Пишем название текста на Английском языке */
+}
+list-style-position: inside;
+list-style-position: outside;

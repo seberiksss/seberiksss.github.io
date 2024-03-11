@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body {
+    font-family: 'Russo One', sans-serif;
+}
+
+p {
+
+   font-size: 16px;
+}
+
+/* Для всех тегов <div> на странице */
+div {
+    width: 280px; /* Установим ширину блока в 280px */
+    border: 0px solid black; /* Рамка блока */
+  
+    border-radius: 16px; /* Скруглим края на 16px */
+    box-shadow: 1px 1px 10px 4px rgba(158, 158, 158, 128); /* Тень от блока div */
+    
+    margin: 16px; /* Отступы снаружи блока div */
+    padding-bottom: 10px; /* Отступы внутри блока div снизу */
+  }
+  
+  /* Для всех тегов <p> и <h1> но ВНУТРИ тега <div>  */
+  div p, h2{
+    padding-left: 10px;   /* Отступы внутри блока и слева */
+    padding-right: 10px;  /* Отступы внутри блока и справа */
+  }
+  
+  
+  /* Для всех тегов <img> на странице */
+  img {
+    width: 100%; /* Ширина изображения в процентах от родителя (от div) */
+    border-top-left-radius: 16px;  /* Скруглим края сверху и слева */
+    border-top-right-radius: 16px; /* Скруглим края сверху и справа */
+  }
+
+
